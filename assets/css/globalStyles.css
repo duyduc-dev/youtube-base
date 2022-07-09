@@ -1,21 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
-    --height-header: 56px;
-    --width-sidebar: 72px;
+  --height-header: 56px;
+  --width-sidebar: 72px;
+
+  --c-white: #fff;
+  --c-black: #000;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
+}
+
+/* css tippy-box */
+.tippy-box {
+  background-color: #616161;
+  border-radius: 2px;
+}
+
+.tippy-box > .tippy-content {
+  text-transform: none;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+  padding: 8px;
 }
