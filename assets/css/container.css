@@ -1,0 +1,6 @@
+.container {
+  margin-top: var(--height-header);
+  background-color: var(--bg-page);
+  height: 1000px;
+  overflow-y: overlay;
+}

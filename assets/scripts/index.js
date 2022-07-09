@@ -1,5 +1,2 @@
-const header = $('.header');
-
-header.click((e) => {
-  console.log(e.target);
-});
+import './header.js';
+import './keyboardVirtual.js';
