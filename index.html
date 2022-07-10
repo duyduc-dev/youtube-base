@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./assets/img/favicon.ico" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/css/index.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/css/index.css" />
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
     <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
     <link rel="stylesheet" href="./index.css" />
@@ -23,7 +20,7 @@
           <div class="header__left-right">
             <!-- Begin: Header left -->
             <div class="header-left">
-              <div class="header-left__menu">
+              <div class="header-left__menu btn-header-click">
                 <svg
                   viewBox="0 0 24 24"
                   preserveAspectRatio="xMidYMid meet"
@@ -49,10 +46,7 @@
                         d="M27.9727 3.12324C27.6435 1.89323 26.6768 0.926623 25.4468 0.597366C23.2197 2.24288e-07 14.285 0 14.285 0C14.285 0 5.35042 2.24288e-07 3.12323 0.597366C1.89323 0.926623 0.926623 1.89323 0.597366 3.12324C2.24288e-07 5.35042 0 10 0 10C0 10 2.24288e-07 14.6496 0.597366 16.8768C0.926623 18.1068 1.89323 19.0734 3.12323 19.4026C5.35042 20 14.285 20 14.285 20C14.285 20 23.2197 20 25.4468 19.4026C26.6768 19.0734 27.6435 18.1068 27.9727 16.8768C28.5701 14.6496 28.5701 10 28.5701 10C28.5701 10 28.5677 5.35042 27.9727 3.12324Z"
                         fill="#FF0000"
                       ></path>
-                      <path
-                        d="M11.4253 14.2854L18.8477 10.0004L11.4253 5.71533V14.2854Z"
-                        fill="white"
-                      ></path>
+                      <path d="M11.4253 14.2854L18.8477 10.0004L11.4253 5.71533V14.2854Z" fill="white"></path>
                     </g>
                     <g>
                       <g id="youtube-paths">
@@ -89,7 +83,7 @@
             <!-- Begin: Header right -->
             <div class="header-right">
               <div class="header-right__option">
-                <div class="header-right__option-item" data-tippy-content="Tạo">
+                <div class="header-right__option-item btn-header-click" data-tippy-content="Tạo">
                   <svg
                     viewBox="0 0 24 24"
                     preserveAspectRatio="xMidYMid meet"
@@ -103,7 +97,7 @@
                     </g>
                   </svg>
                 </div>
-                <div class="header-right__option-item" data-tippy-content="Các ứng dụng youtube">
+                <div class="header-right__option-item btn-header-click" data-tippy-content="Các ứng dụng youtube">
                   <svg
                     viewBox="0 0 24 24"
                     preserveAspectRatio="xMidYMid meet"
@@ -117,7 +111,7 @@
                     </g>
                   </svg>
                 </div>
-                <div class="header-right__option-item" data-tippy-content="Thông báo">
+                <div class="header-right__option-item btn-header-click" data-tippy-content="Thông báo">
                   <svg
                     viewBox="0 0 24 24"
                     preserveAspectRatio="xMidYMid meet"
@@ -160,13 +154,7 @@
                     </g>
                   </svg>
                 </div>
-                <input
-                  spellcheck="false"
-                  autocomplete="off"
-                  id="input-search"
-                  type="text"
-                  placeholder="Tìm kiếm"
-                />
+                <input spellcheck="false" autocomplete="off" id="input-search" type="text" placeholder="Tìm kiếm" />
                 <span class="header-middle__keyboard">
                   <img src="./assets/img/keyboard.png" alt="keyboard" />
                 </span>
@@ -191,15 +179,17 @@
           <!-- End: Header middle -->
         </div>
       </header>
-
       <!-- End: Header -->
-      <div class="sidebar">11</div>
-      <div class="container">11</div>
 
-      <footer class="footer"></footer>
+      <!-- Begin: Sidebar -->
+      <div class="sidebar"></div>
+      <!-- End: Sidebar -->
+      <div class="container"></div>
+      <div class="container"></div>
     </div>
+
     <div class="keyboard-virtual">
-      <span class="keyboard-virtual__close">&times;</span>
+      <span class="keyboard-virtual__close" data-tippy-content="Đóng" data-tippy-placement="top">&times;</span>
       <div class="simple-keyboard"></div>
     </div>
 

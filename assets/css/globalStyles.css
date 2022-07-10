@@ -2,7 +2,8 @@
 
 :root {
   --height-header: 56px;
-  --width-sidebar: 72px;
+  --width-sidebar-small: 72px;
+  --width-sidebar-large: 240px;
 
   --c-white: #fff;
   --c-black: #000;
@@ -74,8 +75,7 @@ input {
 }
 
 .keyboard-virtual__close:hover {
-  background-color: #fd5a5a;
-  color: var(--c-white);
+  opacity: 0.5;
 }
 
 .simple-keyboard {
