@@ -1,4 +1,11 @@
 .sidebar {
   max-width: var(--width-sidebar-large);
-  width: var(--width-sidebar-small);
+  width: var(--width-sidebar-large);
+  background-color: var(--c-white);
+  /* border: 1px solid red; */
+  position: fixed;
+  top: var(--height-header);
+  left: 0;
+  bottom: 0;
+  z-index: 1;
 }

@@ -9,6 +9,7 @@
   --c-black: #000;
   --c-border: #ccc;
   --bg-page: #f9f9f9;
+  --font-family: 'Roboto', sans-serif;
 }
 
 * {
@@ -19,7 +20,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-family);
 }
 
 body {
@@ -29,13 +30,19 @@ body {
 
 input {
   outline: none;
+}
+
+button {
   border: none;
+  background-color: transparent;
 }
 
 /* css tippy-box */
 .tippy-box {
   background-color: #616161;
+  opacity: 0.8;
   border-radius: 2px;
+  font-family: var(--font-family);
 }
 
 .tippy-box > .tippy-content {
@@ -84,6 +91,21 @@ input {
 
 .simple-keyboard.show-keyboard {
   display: block;
+}
+
+/*  */
+
+.p-8 {
+  padding: 8px;
+}
+
+.w-40px {
+  width: 40px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* scroll bar */

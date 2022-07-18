@@ -1,3 +1,1 @@
-const keyboardVirtual = $('.header-middle__keyboard');
-
-keyboardVirtual.click((e) => {});
+console.log({ a: $().jquery });
