@@ -2,6 +2,7 @@ import keyboardVirtual from "./keyboardVirtual.js";
 
 const inputSearch = $(".header__middle-input-search#input-search");
 const spaceHeaderMiddle = $(".header__middle-space");
+const btnDeleteValueInput = $(".btn-delete-text");
 
 const keyboardVirtualNode = $(".header-middle__keyboard");
 const simpleKeyboard = $(".simple-keyboard");
@@ -37,9 +38,17 @@ const header = {
 		});
 	},
 
+	handleClickBtnDeleteText() {
+		btnDeleteValueInput.click(() => {
+			inputSearch.focus();
+			inputSearch.val("");
+		});
+	},
+
 	init() {
 		this.handleInputSearch();
 		this.handleKeyboardVirtual();
+		this.handleClickBtnDeleteText();
 	},
 };
 

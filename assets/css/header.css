@@ -99,18 +99,7 @@
   flex: 1;
 }
 
-.header-middle__keyboard {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  padding-right: 20px;
-  padding-bottom: 2px;
-  padding-left: 4px;
-  background-color: var(--c-white);
-  cursor: pointer;
 
-}
 
 .header-middle__keyboard img {
   opacity: 0.8;
@@ -119,6 +108,8 @@
 .header-middle__keyboard:hover img {
   opacity: 1;
 }
+
+
 
 .header__middle-search:focus-within {
   border: 1px solid #1c62b9;
@@ -143,6 +134,43 @@
   padding: 0 6px 2px;
   background-color: transparent;
   color: #111111;
+
+}
+
+.header-middle__keyboard {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-right: 20px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  background-color: var(--c-white);
+  cursor: pointer;
+
+}
+
+.btn-delete-text {
+  position: absolute;
+  display: none;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-bottom: 4px;
+  font-size: 3rem;
+  font-weight: 300;
+  opacity: 0.8;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.header__middle-input-search:not(:placeholder-shown)~.btn-delete-text {
+  display: block;
+  padding-right: 10px;
+}
+
+.header__middle-input-search:not(:placeholder-shown)~.header-middle__keyboard {
+  padding-right: 40px;
 
 }
 
