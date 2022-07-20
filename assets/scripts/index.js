@@ -1,2 +1,1 @@
-import './header.js';
-import './keyboardVirtual.js';
+import "./header.js";
