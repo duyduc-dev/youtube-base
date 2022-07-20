@@ -1,7 +1,4 @@
 .contain {
-  margin-top: var(--height-header);
-  background-color: var(--bg-page);
-  height: 1000px;
-  overflow-y: overlay;
-  position: relative;
+  margin-top: calc(var(--height-header) - 1px);
+  margin-left: var(--width-sidebar-large);
 }

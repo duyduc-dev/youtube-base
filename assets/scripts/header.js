@@ -1,13 +1,16 @@
-import keyboardVirtual from "./keyboardVirtual.js";
+import keyboardVirtual from './keyboardVirtual.js';
 
-const inputSearch = $(".header__middle-input-search#input-search");
-const spaceHeaderMiddle = $(".header__middle-space");
-const btnDeleteValueInput = $(".btn-delete-text");
+const headerNode = $('.header');
+const inputSearch = $('.header__middle-input-search#input-search');
+const spaceHeaderMiddle = $('.header__middle-space');
+const btnDeleteValueInput = $('.btn-delete-text');
+const btnMenuHeader = $('.header__left-btn-menu');
+const sidebar = $('.sidebar');
 
-const keyboardVirtualNode = $(".header-middle__keyboard");
-const simpleKeyboard = $(".simple-keyboard");
-const wrapperKeyboard = $(".keyboard-virtual");
-const btnCloseKeyboard = $(".keyboard-virtual__close");
+const keyboardVirtualNode = $('.header-middle__keyboard');
+const simpleKeyboard = $('.simple-keyboard');
+const wrapperKeyboard = $('.keyboard-virtual');
+const btnCloseKeyboard = $('.keyboard-virtual__close');
 
 const header = {
 	handleInputSearch() {
@@ -23,7 +26,7 @@ const header = {
 		inputSearch.blur((e) => {
 			// hidden icon search when blur
 			spaceHeaderMiddle.css({
-				paddingRight: "39px",
+				paddingRight: '39px',
 			});
 		});
 	},
@@ -41,7 +44,13 @@ const header = {
 	handleClickBtnDeleteText() {
 		btnDeleteValueInput.click(() => {
 			inputSearch.focus();
-			inputSearch.val("");
+			inputSearch.val('');
+		});
+	},
+
+	handleClickBtnMenu() {
+		btnMenuHeader.click(() => {
+			sidebar.toggleClass('sidebar--active');
 		});
 	},
 
@@ -49,6 +58,7 @@ const header = {
 		this.handleInputSearch();
 		this.handleKeyboardVirtual();
 		this.handleClickBtnDeleteText();
+		this.handleClickBtnMenu();
 	},
 };
 
