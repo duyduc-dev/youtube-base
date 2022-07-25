@@ -6,6 +6,7 @@ const spaceHeaderMiddle = $('.header__middle-space');
 const btnDeleteValueInput = $('.btn-delete-text');
 const btnMenuHeader = $('.header__left-btn-menu');
 const sidebar = $('.sidebar');
+const contain = $('.contain');
 
 const keyboardVirtualNode = $('.header-middle__keyboard');
 const simpleKeyboard = $('.simple-keyboard');
@@ -51,6 +52,7 @@ const header = {
 	handleClickBtnMenu() {
 		btnMenuHeader.click(() => {
 			sidebar.toggleClass('sidebar--active');
+			contain.toggleClass('sidebar--active');
 		});
 	},
 
