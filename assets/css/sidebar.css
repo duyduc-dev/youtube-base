@@ -43,7 +43,7 @@
   display: block;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.4rem;
   color: var(--c-black);
@@ -75,14 +75,133 @@
 
 }
 
+.sidebar__list>.sidebar__list-label {
+  color: #606060;
+  padding: 8px 24px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.sidebar__menu-list {
+  padding: 12px 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+
+.sidebar__menu-icon img {
+  width: 100%;
+  border-radius: 50%;
+
+}
+
+.sidebar__list+.sidebar__list .sidebar__menu-list {
+  padding-top: 0;
+}
+
+.sidebar__menu-list>.sidebar__menu-item {
+  padding: 0 24px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.sidebar__menu-item .link-menu-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar__menu-item .sidebar__menu-icon {
+  width: 24px;
+  margin-right: 24px;
+}
+
+.sidebar__menu-item .link-menu-item span {
+  color: #030303;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 400;
+  flex: 1;
+  flex-basis: 1e-9px;
+}
+
+.sidebar__menu-item.sidebar__menu-item--active span {
+  font-weight: 500;
+}
+
+.sidebar__menu-item-horizontal {
+  height: 1px;
+  background-color: #eee;
+  width: 100%;
+  margin: 12px 0;
+}
+
+.sidebar__menu-list>.sidebar__menu-item:hover {
+  background-color: #0000000d;
+}
+
+.sidebar__menu-item.sidebar__menu-item--active:hover {
+  background-color: #d9d9d9;
+}
+
+.sidebar__menu-list>.sidebar__menu-item:not(.sidebar__menu-item--active):active {
+  background-color: #0000001a;
+}
+
+.sidebar__menu-item.sidebar__menu-item--active {
+  background-color: #e5e5e5;
+}
+
+/* sidebar */
+.sidebar__footer-info {
+  padding: 4px 24px 0;
+}
+
+.sidebar__footer-link {
+  color: #606060;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  display: inline-block;
+}
+
+.sidebar__footer-link:hover {
+  color: #606060;
+
+}
+
+.sidebar__footer-copyright {
+  padding: 8px 24px 24px;
+  color: #909090;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+  user-select: none;
+}
+
 .sidebar.sidebar--active::-webkit-scrollbar {
   border-radius: 0;
   width: 8px;
 }
 
+
+
 .sidebar.sidebar--active::-webkit-scrollbar-thumb {
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.15);
+
+}
+
+.sidebar.sidebar--active:hover:-webkit-scrollbar-thumb {
+  background-color: red;
 }
 
 .sidebar.sidebar--active::-webkit-scrollbar-track {
