@@ -1,8 +1,0 @@
-.contain {
-  margin-top: calc(var(--height-header));
-  margin-left: var(--width-sidebar-large);
-}
-
-.contain.sidebar--active {
-  margin-left: var(--width-sidebar-small);
-}

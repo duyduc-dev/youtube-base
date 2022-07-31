@@ -65,6 +65,17 @@
   overflow-x: hidden;
 }
 
+.sidebar-small::after,
+.sidebar__inner::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  visibility: visible;
+  width: 20px;
+  content: "";
+}
+
 .sidebar__inner {}
 
 .sidebar.sidebar--active {
@@ -192,16 +203,10 @@
   width: 8px;
 }
 
-
-
 .sidebar.sidebar--active::-webkit-scrollbar-thumb {
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.15);
 
-}
-
-.sidebar.sidebar--active:hover:-webkit-scrollbar-thumb {
-  background-color: red;
 }
 
 .sidebar.sidebar--active::-webkit-scrollbar-track {

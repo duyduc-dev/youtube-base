@@ -1,0 +1,28 @@
+.contain {
+  margin-top: calc(var(--height-header));
+  margin-left: calc(var(--width-sidebar-large) + 20px);
+}
+
+.contain.sidebar--active {
+  margin-left: calc(var(--width-sidebar-small) + 20px);
+}
+
+.contain__inner {
+  position: relative;
+}
+
+body::-webkit-scrollbar {
+  border-radius: 0;
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.15);
+
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: transparent;
+}

@@ -1,4 +1,4 @@
 @import url('./globalStyles.css');
 @import url('./header.css');
 @import url('./sidebar.css');
-@import url('./contain.css');
+@import url('./contain/contain.css');
