@@ -47,6 +47,10 @@ button {
 	margin-right: 16px;
 }
 
+#root {
+	position: relative;
+}
+
 /* css tippy-box */
 .tippy-box {
 	background-color: #616161;
@@ -113,6 +117,10 @@ button {
 	width: 40px;
 }
 
+.h-40px {
+	height: 40px;
+}
+
 .cursor-pointer {
 	cursor: pointer;
 	-webkit-tap-highlight-color: transparent;
@@ -133,3 +141,27 @@ html *::-webkit-scrollbar-track {
   border-radius: 0;
   background-color: transparent;
 } */
+#overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #333;
+	opacity: 0.7;
+	z-index: 9998;
+	/* display: block; */
+}
+
+@media (max-width: 1350px) {
+	#overlay {
+		display: none;
+	}
+}
+
+@media (max-width: 792px) {
+	:root {
+		--width-sidebar-small: 10px;
+	}
+}
