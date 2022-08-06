@@ -198,6 +198,10 @@
 	margin-left: 10px;
 }
 
+.header__right-search-btn {
+	display: none;
+}
+
 .header__right-btn-avt {
 	width: 60px;
 }
@@ -210,5 +214,9 @@
 @media (max-width: 655px) {
 	.header__middle {
 		display: none !important;
+	}
+
+	.header__right-search-btn {
+		display: block;
 	}
 }
