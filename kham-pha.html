@@ -22,7 +22,7 @@
 	</head>
 
 	<body>
-	   	<div id="root">
+		<div id="root">
 			<!-- Begin: Header -->
 			<div class="header">
 				<div class="header__inner w-100 d-flex align-items-center justify-content-between">
@@ -88,7 +88,20 @@
 					<!-- header middle -->
 					<div class="header__middle d-flex align-items-center justify-content-center">
 						<div class="header__middle-inner w-100 d-flex align-items-center justify-content-end">
-							<div class="header__middle-space"></div>
+							<div class="header__middle-space">
+								<div class="icon-comeback btn-header-click cursor-pointer">
+									<svg
+										viewBox="0 0 24 24"
+										preserveAspectRatio="xMidYMid meet"
+										focusable="false"
+										style="pointer-events: none; display: block; width: 100%; height: 100%"
+									>
+										<g mirror-in-rtl="">
+											<path d="M21,11v1H5.64l6.72,6.72l-0.71,0.71L3.72,11.5l7.92-7.92l0.71,0.71L5.64,11H21z"></path>
+										</g>
+									</svg>
+								</div>
+							</div>
 							<div class="header__middle-search">
 								<div class="icon-input-search">
 									<svg
@@ -139,6 +152,7 @@
 					<div class="header__right d-flex align-items-center justify-content-center">
 						<div class="header__right-list-btn d-flex align-items-center justify-content-center">
 							<button
+								id="btn-search-mobile"
 								class="header__right-btn-item header__right-search-btn p-[8px] w-40px btn-header-click"
 								data-tippy-content="Tìm kiếm"
 							>
@@ -661,9 +675,10 @@
 		<script src="https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/index.js"></script>
 		<script src="https://unpkg.com/@popperjs/core@2"></script>
 		<script src="https://unpkg.com/tippy.js@6"></script>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+			integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
 			crossorigin="anonymous"
 		></script>
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

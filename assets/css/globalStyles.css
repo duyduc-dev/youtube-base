@@ -126,6 +126,10 @@ button {
 	-webkit-tap-highlight-color: transparent;
 }
 
+.important-flex {
+	display: flex !important;
+}
+
 #overlay {
 	display: none;
 	position: fixed;

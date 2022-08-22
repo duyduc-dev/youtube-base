@@ -211,9 +211,35 @@
 	border-radius: 50%;
 }
 
+.icon-comeback {
+	display: none;
+}
+
 @media (max-width: 655px) {
 	.header__middle {
 		display: none !important;
+	}
+
+	.important-flex {
+		display: flex !important;
+	}
+
+	.header__middle-mobile {
+		max-width: 450px;
+		position: absolute;
+		z-index: 99;
+		background-color: #fff;
+	}
+
+	.icon-comeback {
+		display: block;
+		width: 40px;
+		height: 40px;
+		padding: 8px;
+	}
+
+	.header-middle__keyboard {
+		display: none;
 	}
 
 	.header__right-search-btn {
