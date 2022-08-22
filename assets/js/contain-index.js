@@ -149,6 +149,42 @@ const containIndex = {
 			views: '1,2 Tr lượt xem',
 			timeUpload: '3 năm trước',
 		},
+		{
+			srcImg: './assets/img/video/i17.webp',
+			imgChanel: './assets/img/subscribeChannel/s2.jpg',
+			time: '06:28',
+			title: '8 lời khuyên giúp học lập trình tại F8 hiệu quả hơn!',
+			chanel: 'F8 Official',
+			views: '41 N lượt xem',
+			timeUpload: '2 năm trước',
+		},
+		{
+			srcImg: './assets/img/video/i18.webp',
+			imgChanel: './assets/img/subscribeChannel/s3.jpg',
+			time: '01:16:07',
+			title: 'Live: Phân tích code và code dự án CodingUI của mình',
+			chanel: 'evondev',
+			views: '2,3 N lượt xem',
+			timeUpload: '7 ngày trước',
+		},
+		{
+			srcImg: './assets/img/video/i19.webp',
+			imgChanel: './assets/img/subscribeChannel/s1.jpg',
+			time: '59:35',
+			title: 'Tự Sáng Tác Nhạc có khó không?',
+			chanel: 'Hiển Râu',
+			views: '35 N lượt xem',
+			timeUpload: '3 tháng trước',
+		},
+		{
+			srcImg: './assets/img/video/i20.webp',
+			imgChanel: './assets/img/subscribeChannel/s5.jpg',
+			time: '01:11:15',
+			title: 'Bootstrap 5 Crash Course',
+			chanel: 'Web Dev Simplified',
+			views: '14 N lượt xem',
+			timeUpload: '23 giờ trước',
+		},
 	],
 	handleSidebarActive() {
 		btnMenuHeader.click((e) => {
@@ -180,10 +216,12 @@ const containIndex = {
 				</a>
 				<div class="card-body">
 				  <div class="card-body-inner">
-					<div class="card-body-avt">
+					<div class="card-body-avt !w-[36px] ml-[0px]">
 					  <img
 						src="${imgChanel}"
-						alt="${chanel}">
+						alt="${chanel}"
+						class='!min-w-[36px]'
+					>
 					</div>
 					<div class="card-body-content">
 					  <h3 class="card-body-heading mb-0">
