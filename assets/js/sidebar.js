@@ -1,3 +1,5 @@
+import './jquery.js';
+
 const elementListSubscribeChanel = $('#subscribe-chanel');
 const elementExplore = $('#explore');
 const elementOther = $('#list-other');

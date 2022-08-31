@@ -1,3 +1,4 @@
+import './jquery.js';
 import './header.js';
 import './sidebar.js';
 
@@ -20,4 +21,3 @@ $(window).resize(() => {
 		}
 	}
 });
-

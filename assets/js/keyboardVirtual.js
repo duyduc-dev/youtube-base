@@ -1,3 +1,5 @@
+import './jquery.js';
+
 const keyboardVirtual = ({ wrapperKeyboard, inputSearch, keyboardVirtualNode, simpleKeyboard, btnClose }) => {
 	const defaultTheme = 'hg-theme-default';
 

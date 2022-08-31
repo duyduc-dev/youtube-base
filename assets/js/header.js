@@ -1,3 +1,4 @@
+import './jquery.js';
 import keyboardVirtual from './keyboardVirtual.js';
 
 const headerNode = $('.header');
@@ -16,7 +17,7 @@ const keyboardVirtualNode = $('.header-middle__keyboard');
 const simpleKeyboard = $('.simple-keyboard');
 const wrapperKeyboard = $('.keyboard-virtual');
 const btnCloseKeyboard = $('.keyboard-virtual__close');
-console.log(btnComeBack);
+
 const header = {
 	handleInputSearch() {
 		// handle inputSearch focus
@@ -75,7 +76,6 @@ const header = {
 	},
 
 	handleClickBtnSearchMobile() {
-		console.log(btnSearchMobile);
 		btnSearchMobile.click(() => {
 			headerMiddleNode.addClass('important-flex header__middle-mobile');
 		});

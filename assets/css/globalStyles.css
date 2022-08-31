@@ -143,6 +143,9 @@ button {
 	/* display: block; */
 }
 
+.line-2-3dot {
+}
+
 @media (max-width: 1350px) {
 	#overlay {
 		display: none;
