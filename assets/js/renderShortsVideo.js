@@ -12,6 +12,7 @@ const renderShortsVideo = {
 		'06-JChds2u8',
 		'ycr6NKEtTwE',
 		'EM_n7MQ9dmo',
+		'LZZexCVBHfM',
 	],
 
 	renderVideo() {

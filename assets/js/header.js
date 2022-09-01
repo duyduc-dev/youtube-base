@@ -60,13 +60,13 @@ const header = {
 			contain.toggleClass('sidebar--active');
 			overlay.hide();
 			if (
-				($(window).width() < 1350 || window.location.pathname === '/youtube-base/video-detail.html') &&
+				($(window).width() < 1350 || window.location.pathname === '/video-detail.html') &&
 				sidebar.hasClass('sidebar--active')
 			) {
 				overlay.show();
 			}
 
-			if (window.location.pathname === '/youtube-base/video-detail.html') {
+			if (window.location.pathname === '/video-detail.html') {
 				sidebar.css({
 					top: 0,
 				});

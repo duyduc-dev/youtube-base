@@ -46,6 +46,22 @@ const sidebar = {
 		{
 			img: './assets/img/subscribeChannel/s10.jpg',
 			title: 'Huy Nguyen Mai',
+		},
+		{
+			img: './assets/img/subscribeChannel/s11.jpg',
+			title: 'Pii Music',
+		},
+		{
+			img: './assets/img/subscribeChannel/s12.jpg',
+			title: 'FREAKY OFFICIAL',
+		},
+		{
+			img: './assets/img/subscribeChannel/s13.jpg',
+			title: 'Linh Thộn',
+		},
+		{
+			img: './assets/img/subscribeChannel/s14.jpg',
+			title: 'Phạm Nguyên Ngọc',
 			horizontal: true,
 		},
 	],
