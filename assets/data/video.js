@@ -8,6 +8,8 @@ const videos = [
 		views: '72 N lượt xem',
 		timeUpload: '2 tháng trước',
 		videoID: 'tGHYoae2P98',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i2.webp',
@@ -18,6 +20,8 @@ const videos = [
 		views: '246 N lượt xem',
 		timeUpload: '1 năm trước',
 		videoID: 'sgq7BH6WxL8',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i3.webp',
@@ -28,6 +32,8 @@ const videos = [
 		views: '135 lượt xem',
 		timeUpload: '5 tháng trước',
 		videoID: '59pIVR62NDo',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i4.webp',
@@ -38,6 +44,8 @@ const videos = [
 		views: '10 N lượt xem',
 		timeUpload: '1 năm trước',
 		videoID: 'bWJHjD4YU4k',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i5.webp',
@@ -48,6 +56,8 @@ const videos = [
 		views: '587 lượt xem',
 		timeUpload: '8 tháng trước',
 		videoID: '3qFyPXc1j7g',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i6.webp',
@@ -58,6 +68,8 @@ const videos = [
 		views: '72 N lượt xem',
 		timeUpload: '2 tháng trước',
 		videoID: 'ZeNyjnneq_w',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i7.webp',
@@ -68,6 +80,8 @@ const videos = [
 		views: '42 N lượt xem',
 		timeUpload: '4 ngày trước',
 		videoID: 'PmDJIooZjBE',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i8.webp',
@@ -78,6 +92,8 @@ const videos = [
 		views: '220 N lượt xem',
 		timeUpload: '1 tháng trước',
 		videoID: 'lI1ae4REbFM',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i9.webp',
@@ -88,6 +104,8 @@ const videos = [
 		views: '178 N lượt xem',
 		timeUpload: '8 tháng trước',
 		videoID: 'z5MytzAF658',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i10.webp',
@@ -98,6 +116,8 @@ const videos = [
 		views: '7,6 N lượt xem',
 		timeUpload: '2 tuần trước',
 		videoID: '7jKMAWvlAbY',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i11.webp',
@@ -108,6 +128,8 @@ const videos = [
 		views: '933 N lượt xem',
 		timeUpload: '1 năm trước',
 		videoID: 'rHux0gMZ3Eg',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i12.webp',
@@ -118,6 +140,8 @@ const videos = [
 		views: '22 N lượt xem',
 		timeUpload: '9 tháng trước',
 		videoID: 'OOt2VRa1Oeg',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i13.webp',
@@ -128,6 +152,8 @@ const videos = [
 		views: '26 N lượt xem',
 		timeUpload: '9 ngày trước',
 		videoID: 'qe5YNzeI-B0',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i14.webp',
@@ -137,7 +163,9 @@ const videos = [
 		chanel: 'evondev',
 		views: '2,1 N lượt xem',
 		timeUpload: '1 tháng trước',
-		videoID: '-536JS35Po4&t=225s',
+		videoID: '-536JS35Po4',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i15.webp',
@@ -148,6 +176,8 @@ const videos = [
 		views: '430 lượt xem',
 		timeUpload: '5 tháng trước',
 		videoID: 'NVnmT0C4vns',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i16.webp',
@@ -157,6 +187,9 @@ const videos = [
 		chanel: 'Web Dev Simplified',
 		views: '1,2 Tr lượt xem',
 		timeUpload: '3 năm trước',
+		videoID: 'CVClHLwv-4I',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i17.webp',
@@ -166,7 +199,9 @@ const videos = [
 		chanel: 'F8 Official',
 		views: '41 N lượt xem',
 		timeUpload: '2 năm trước',
-		videoID: 'CVClHLwv-4I',
+		videoID: 'IF1dd3KV84w',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i18.webp',
@@ -177,6 +212,8 @@ const videos = [
 		views: '2,3 N lượt xem',
 		timeUpload: '7 ngày trước',
 		videoID: 'Jpr8mXUzdMg',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i19.webp',
@@ -187,6 +224,8 @@ const videos = [
 		views: '35 N lượt xem',
 		timeUpload: '3 tháng trước',
 		videoID: '3qNsUPE8z5c&t=451s',
+		like: 1920,
+		dislike: 19,
 	},
 	{
 		srcImg: './assets/img/video/i20.webp',
@@ -197,6 +236,8 @@ const videos = [
 		views: '14 N lượt xem',
 		timeUpload: '23 giờ trước',
 		videoID: 'Jyvffr3aCp0',
+		like: 1920,
+		dislike: 19,
 	},
 ];
 

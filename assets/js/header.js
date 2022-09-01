@@ -1,7 +1,6 @@
 import './jquery.js';
 import keyboardVirtual from './keyboardVirtual.js';
 
-const headerNode = $('.header');
 const headerMiddleNode = $('.header__middle');
 const inputSearch = $('.header__middle-input-search#input-search');
 const spaceHeaderMiddle = $('.header__middle-space');
@@ -10,6 +9,7 @@ const btnMenuHeader = $('.header__left-btn-menu');
 const btnSearchMobile = $('#btn-search-mobile');
 const btnComeBack = $('.icon-comeback');
 const sidebar = $('.sidebar');
+const sidebarHeader = $('.sidebar__header');
 const contain = $('.contain');
 const overlay = $('#overlay');
 
@@ -59,8 +59,26 @@ const header = {
 			sidebar.toggleClass('sidebar--active');
 			contain.toggleClass('sidebar--active');
 			overlay.hide();
-			if ($(window).width() < 1350 && sidebar.hasClass('sidebar--active')) {
+			if (
+				($(window).width() < 1350 || window.location.pathname === '/video-detail.html') &&
+				sidebar.hasClass('sidebar--active')
+			) {
 				overlay.show();
+			}
+
+			if (window.location.pathname === '/video-detail.html') {
+				sidebar.css({
+					top: 0,
+				});
+				sidebarHeader.css({
+					display: 'flex',
+				});
+				$('.sidebar__list.pt-header').css({
+					marginTop: 56,
+				});
+				contain.css({
+					marginLeft: 72 + 20,
+				});
 			}
 		});
 	},

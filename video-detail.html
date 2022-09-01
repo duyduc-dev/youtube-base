@@ -443,8 +443,8 @@
 					<div class="sidebar__footer">
 						<div class="sidebar__footer-info">
 							<a href="#" class="sidebar__footer-link text-decoration-none">Giới thiệu</a>
-							<a href="#" class="sidebar__footer-link text-decoration-none">Báo chí</a>
-							<a href="#" class="sidebar__footer-link text-decoration-none">Bản quyền</a>
+							<a href="#" class="__footer-link text-decoration-none">Báo chí</a>
+							<a href="#" class="__footer-link text-decoration-none">Bản quyền</a>
 							<a href="#" class="sidebar__footer-link text-decoration-none">Liên hệ với chúng tôi</a>
 							<a href="#" class="sidebar__footer-link text-decoration-none">Người sáng tạo</a>
 							<a href="#" class="sidebar__footer-link text-decoration-none">Quảng cáo</a>
@@ -462,17 +462,28 @@
 				</div>
 			</div>
 			<!-- End: Sidebar -->
-			<div class="contain">
+			<div class="contain lg:!ml-[20px] xl:!ml-[100px] md:!ml-[20px] !ml-6">
 				<div class="contain__inner">
-					
-						<div class="flex mt-[80px]">
+					<!-- render javascript -->
+						<div class="flex lg:flex-row flex-col mt-[80px]">
 							<div>
 								<div id="video"></div>
+								<div id="info-video-detail"></div>
 							</div>
-							<div class="ml-8" id="list-video">video</div>
+							<div class="ml-2 md:mt-0 mt-10 md:ml-8 lg:max-w-[400px] md:max-w-[350px]" >
+								<div id="list-video"></div>
+								<div class="mt-5 mb-5 w-100 d-flex align-items-center justify-content-center">
+									<div class="lds-ring">
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+									</div>
+									<p class="">Loading ...</p>
+								</div>
+							</div>
 						</div>
 
-						
 					</div>
 				</div>
 			</div>

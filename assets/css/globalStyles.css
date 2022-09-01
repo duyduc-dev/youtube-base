@@ -144,6 +144,16 @@ button {
 }
 
 .line-2-3dot {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.dot::after {
+	content: '•';
+	margin: 0 4px;
 }
 
 @media (max-width: 1350px) {
