@@ -9,7 +9,7 @@ const renderSubscriptions = {
 		idRender.html(
 			this.dataVideo.map(
 				(video) => /*html*/ `
-          <div class="max-w-[1070px] ml-auto mr-auto first:mt-[80px] mt-[20px] border-b border-[#0000001a] pb-[40px]">
+          <a href="/video-detail.html?videoID=${video.videoID}" class="block max-w-[1070px] ml-auto mr-auto first:mt-[80px] mt-[20px] border-b border-[#0000001a] pb-[40px] hover:text-[#060606]">
             <div class="flex items-center">
               <img src="${video.imgChanel}" class="w-[32px] rounded-[50%] mr-[10px]" alt="${video.title}"/>
               <p class="text-[#030303] text-[16px] font-[500] truncate">${video.chanel}</p>
@@ -27,7 +27,7 @@ const renderSubscriptions = {
                   </div>
               </div>
             </div>
-          </div>
+          </a>
         `
 			)
 		);
