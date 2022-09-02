@@ -19,7 +19,7 @@ const videoDetail = {
 	renderVideoDetail() {
 		frameVideo.html(
 			`<iframe 
-				class="w-[350px] h-[210px] xl:w-[810px] lg:w-[789px] md:w-[576px] xl:h-[506px] lg:h-[493px] md:h-[360px]"
+				class="w-[470px] h-[280px] xl:w-[810px] lg:w-[789px] md:w-[576px] xl:h-[506px] lg:h-[493px] md:h-[360px]"
 				src="https://www.youtube.com/embed/${videoID}?autoplay=1" 
 				title="YouTube video player" 
 				frameborder="0" 
@@ -66,7 +66,7 @@ const videoDetail = {
 						<img src="${video.imgChanel}" width="36" class="rounded-full"/>
 						<p class="text-[14px] text-[#030303] truncate font-[500] ml-5">${video.chanel}</p>
 					</div>
-					<div class="flex md:justify-start justify-center items-center mr-10">
+					<div class="flex md:justify-start justify-center items-center mr-10 mt-4 md:mt-0">
 						<div class="flex items-center cursor-pointer" id="btn-like">
 							<div class="w-[36px] h-[36px] p-[6px] ">
 								<svg id="icon-like" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"  style="pointer-events: none; display: block; width: 100%; height: 100%;"><g ><path d="M18.77,11h-4.23l1.52-4.94C16.38,5.03,15.54,4,14.38,4c-0.58,0-1.14,0.24-1.52,0.65L7,11H3v10h4h1h9.43 c1.06,0,1.98-0.67,2.19-1.61l1.34-6C21.23,12.15,20.18,11,18.77,11z M7,20H4v-8h3V20z M19.98,13.17l-1.34,6 C18.54,19.65,18.03,20,17.43,20H8v-8.61l5.6-6.06C13.79,5.12,14.08,5,14.38,5c0.26,0,0.5,0.11,0.63,0.3 c0.07,0.1,0.15,0.26,0.09,0.47l-1.52,4.94L13.18,12h1.35h4.23c0.41,0,0.8,0.17,1.03,0.46C19.92,12.61,20.05,12.86,19.98,13.17z" ></path></g></svg>
